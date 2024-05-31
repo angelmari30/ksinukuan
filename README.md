@@ -1,9 +1,15 @@
 # ksinukuan
 KapeSinukuan
-#Members
-Pineda, Angel Mari 
-1. Garcia, Christian Jammal
-2. Ingal, Charlie
-3. Lacanlale, Chris Ian
-4. Parreno, Christian Rey
-5. Saplala, John Verlee
+
+# Technology Used
+▸HTML 🚀
+▸CSS 🚀
+▸JavaScript 🚀
+
+# Members
+Angel Mari Pineda 👩🏻‍💻
+Charlie Ingal 👨🏻‍💻
+Chris Ian Lacanlale 👨🏻‍💻
+Christian Jammal Garcia 👨🏻‍💻
+Christian Rey Parreno 👨🏻‍💻
+John Verlee Saplala 👨🏻‍💻
