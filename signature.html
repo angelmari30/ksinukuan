@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/kape.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Kape Sinukuan Menu</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div>
+                <img id="logo" class="logo-img" src="../images/kape.jpg" alt="logo">
+            </div>
+            <div>
+                <img class="icon" id="bars" src="../images/bars.svg" alt="logo">
+                <img class="icon" id="cross" src="../images/cross.svg" alt="logo">
+            </div>
+        </div>
+        <div class="nav">
+            <div>
+                <ul>
+                    <a href="#" id="menu">
+                        <li>Menu</li>
+                    </a>
+                    <a href="#">
+                        <li>Gallery</li>
+                    </a>
+                    <a href="#">
+                        <li>Reviews</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="nav-option">
+                <div class="location">
+                    <img src="../images/location.svg" class="icon" alt="">
+                    <div>
+                        <a class="store" href="https://maps.app.goo.gl/XgKSNC2SeYXG5C1BA">
+                            Find Kape Sinukuan
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </header>
+    <div class="menu">
+        <div class="menu-nav">
+            <a href="all.html">All products</a>
+            <a href="signature.html" style="color: green; text-decoration:underline;">Sinukuan Signatures</a>
+            <a href="#">Iced Shakens</a>
+            <a href="#">Black</a>
+            <a href="#">White</a>
+            <a href="#">Sweet Fix</a>
+        </div>
+    </div>
+
+</div>
+<section>
+<style>
+    .menu{
+    width: 100%;
+    padding: 70px 0;
+    margin-top: -70px;
+}
+
+.menu h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.menu h1 span{
+    color: burlywood;
+    margin-left: 15px;
+    font-family: mv boli;
+}
+
+.menu h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.menu .menu_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.menu .menu_box .menu_card{
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.menu .menu_box .menu_card .menu_image{
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu .menu_box .menu_card .menu_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.menu .menu_box .menu_card .menu_image:hover img{
+    transform: scale(1.1);
+}
+
+.menu .menu_box .menu_card .small_card{
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 0;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.menu .menu_box .menu_card:hover .small_card{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+
+.menu .menu_box .menu_card .small_card i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    color: #000;
+    cursor: pointer;
+    text-shadow: 0 0 6px #000;
+    transition: 0.2s;
+}
+
+.menu .menu_box .menu_card .small_card i:hover{
+    color: #fac031;
+}
+
+.menu .menu_box .menu_card .menu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: #fac031;
+}
+
+.menu .menu_box .menu_card .menu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+}
+
+.menu .menu_box .menu_card .menu_info h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_icon{
+    color: #fac031;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #000;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
+}
+
+
+</style>
+<div class="menu" id="Menu">
+    <h1>Main<span>Menu</span></h1>
+
+    <div class="menu_box">
+        <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="../images/macha.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>MACHA</h2>
+                <h3>₱160.00 HOT</h3>
+                <h3>₱180.00 COLD</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Available Now</a>
+            </div>
+
+        </div> 
+        
+        <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="../images/cup1.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>DARK MOCHA</h2>
+                <h3>₱160.00 HOT</h3>
+                <h3>₱180.00 COLD</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Available Now</a>
+            </div>
+
+        </div> 
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+		<div class="contact-box">
+        <h3>Kape Sinukuan</h3>
+			<h5>Connect With Us</h5>
+			<div class="social">
+				<a href="https://www.facebook.com/kapesinukuan  "><i class='bx bxl-facebook' ></i></a>
+				<a href="https://www.instagram.com/kapesinukuan/?fbclid=IwAR3uTATF8iEXudURtM_AgmsNbWAen0pIc4SE3DBX3rHBGkyx3xX4u2iTMZ0"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="https://www.tiktok.com/@kapesinukuan?_t=8kjDU3sHVjd&_r=1&fbclid=IwAR1NOMU90GgMiL3ZtDeBQ-h57vPUH4U8LLdwxFwU1kYxgmrL26efd88GgAA"><i class='bx bxl-tiktok'></i></a>
+			</div>
+		</div>
+
+		<div class="contact-box">
+			<h3>Quick Links</h3>
+			<li><a href="menu.html" class="active">Menu</a></li>
+			<li><a href="#about">Gallery</a></li>
+			<li><a href="#team">Team</a></li>
+			<li><a href="#">Blog</a></li>
+		</div>
+
+		<div class="contact-box">
+			<h3>Web Developer</h3>
+			<li><a href="#">Ingal Charlie</a></li>
+			<li><a href="#">Lacanlale Chris Ian</a></li>
+			<li><a href="#">Parenno Christian Rey</a></li>
+			<li><a href="#">Pineda Angel</a></li>
+			<li><a href="#">Saplala John Verlee</a></li>
+		</div>
+
+		<div class="contact-box address">
+			<h3>Contact</h3>
+			<i class='bx bxs-map' ><span>Rodriguez Nature Park, Purok 6, Brgy. Baliti, Arayat, Philippines</span></i>
+			<i class='bx bxs-envelope' ><span>KapeSinukuan@email.com</span></i>
+			<i class='bx bxs-phone' ><span>+69 07 307 8389</span></i>
+		</div>
+
+	</section>
+
+	<div class="end-text">
+		<p>Copyright © Kape Sinukuan. All Rights Reserved.</p>
+	</div>
+    
+    
+
+
+    <script src="../app.js"></script>
+
+</body>
+</html>
